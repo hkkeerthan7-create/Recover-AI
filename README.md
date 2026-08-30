@@ -10,7 +10,7 @@ Instead of treating every failed payment the same way, RecoverAI analyzes paymen
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Failed payments can result in significant revenue loss for businesses.
 
