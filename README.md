@@ -37,3 +37,15 @@ Policy & Guardrail Check
 Recovery Decision
       ↓
 Audit Log
+
+## Technologies Used
+
+- AI / Machine Learning
+- TypeScript
+- Web Application Development
+- API Integration
+- Replit
+
+## Demo
+
+The application is deployed and can be accessed using the project link.
