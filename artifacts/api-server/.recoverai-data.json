@@ -11,12 +11,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 78,
       "recoverableAmount": 18000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0002",
@@ -29,12 +29,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 77,
       "recoverableAmount": 19000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0003",
@@ -47,12 +47,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 76,
       "recoverableAmount": 20000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0004",
@@ -65,12 +65,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 75,
       "recoverableAmount": 21000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0005",
@@ -83,12 +83,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 74,
       "recoverableAmount": 22000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0006",
@@ -101,12 +101,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 73,
       "recoverableAmount": 23000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0007",
@@ -119,12 +119,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 72,
       "recoverableAmount": 24000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0008",
@@ -137,12 +137,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 71,
       "recoverableAmount": 25000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0009",
@@ -155,12 +155,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 70,
       "recoverableAmount": 26000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0010",
@@ -173,12 +173,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 69,
       "recoverableAmount": 18000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0011",
@@ -191,12 +191,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 68,
       "recoverableAmount": 19000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0012",
@@ -209,12 +209,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 67,
       "recoverableAmount": 20000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0013",
@@ -227,12 +227,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 66,
       "recoverableAmount": 21000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0014",
@@ -245,12 +245,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 65,
       "recoverableAmount": 22000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0015",
@@ -263,12 +263,12 @@
       "failureReason": "Insufficient funds",
       "recoveryScore": 78,
       "recoverableAmount": 23000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from insufficient funds",
+      "retryCount": 1
     },
     {
       "id": "txn_0016",
@@ -281,12 +281,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 77,
       "recoverableAmount": 24000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0017",
@@ -299,12 +299,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 76,
       "recoverableAmount": 25000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0018",
@@ -317,12 +317,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 75,
       "recoverableAmount": 26000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0019",
@@ -335,12 +335,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 74,
       "recoverableAmount": 18000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0020",
@@ -353,12 +353,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 73,
       "recoverableAmount": 19000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0021",
@@ -371,12 +371,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 72,
       "recoverableAmount": 20000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0022",
@@ -389,12 +389,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 71,
       "recoverableAmount": 21000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0023",
@@ -407,12 +407,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 70,
       "recoverableAmount": 22000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0024",
@@ -425,12 +425,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 69,
       "recoverableAmount": 23000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0025",
@@ -443,12 +443,12 @@
       "failureReason": "Network timeout",
       "recoveryScore": 68,
       "recoverableAmount": 24000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Temporary",
+      "decisionReason": "Medium recovery potential from network timeout",
+      "retryCount": 1
     },
     {
       "id": "txn_0026",
@@ -461,12 +461,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 67,
       "recoverableAmount": 25000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0027",
@@ -479,12 +479,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 66,
       "recoverableAmount": 26000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0028",
@@ -497,12 +497,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 65,
       "recoverableAmount": 18000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0029",
@@ -515,12 +515,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 78,
       "recoverableAmount": 19000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0030",
@@ -533,12 +533,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 77,
       "recoverableAmount": 20000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0031",
@@ -551,12 +551,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 76,
       "recoverableAmount": 21000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0032",
@@ -569,12 +569,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 75,
       "recoverableAmount": 22000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0033",
@@ -587,12 +587,12 @@
       "failureReason": "Authentication failure",
       "recoveryScore": 74,
       "recoverableAmount": -9000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "failureClassification": "Authentication",
+      "decisionReason": "Medium recovery potential from authentication failure",
+      "retryCount": 1
     },
     {
       "id": "txn_0034",
@@ -605,12 +605,12 @@
       "failureReason": "Card expired",
       "recoveryScore": 73,
       "recoverableAmount": 65000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SEND_PAYMENT_REMINDER",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "PENDING_MANUAL",
+      "failureClassification": "Payment method",
+      "decisionReason": "Medium recovery potential from card expired",
+      "retryCount": 1
     },
     {
       "id": "txn_0035",
@@ -623,12 +623,12 @@
       "failureReason": "Card expired",
       "recoveryScore": 72,
       "recoverableAmount": 65000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SEND_PAYMENT_REMINDER",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "PENDING_MANUAL",
+      "failureClassification": "Payment method",
+      "decisionReason": "Medium recovery potential from card expired",
+      "retryCount": 1
     },
     {
       "id": "txn_0036",
@@ -641,12 +641,12 @@
       "failureReason": "Card expired",
       "recoveryScore": 71,
       "recoverableAmount": 65000,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SEND_PAYMENT_REMINDER",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "PENDING_MANUAL",
+      "failureClassification": "Payment method",
+      "decisionReason": "Medium recovery potential from card expired",
+      "retryCount": 1
     },
     {
       "id": "txn_0037",
@@ -659,12 +659,12 @@
       "failureReason": "Card expired",
       "recoveryScore": 40,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Payment method",
+      "decisionReason": "Low recovery potential from card expired; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0038",
@@ -677,12 +677,12 @@
       "failureReason": "Card expired",
       "recoveryScore": 37,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Payment method",
+      "decisionReason": "Low recovery potential from card expired; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0039",
@@ -695,12 +695,12 @@
       "failureReason": "Bank decline",
       "recoveryScore": 50,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Bank decision",
+      "decisionReason": "Low recovery potential from bank decline; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0040",
@@ -713,12 +713,12 @@
       "failureReason": "Bank decline",
       "recoveryScore": 47,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Bank decision",
+      "decisionReason": "Low recovery potential from bank decline; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0041",
@@ -731,12 +731,12 @@
       "failureReason": "Bank decline",
       "recoveryScore": 44,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Bank decision",
+      "decisionReason": "Low recovery potential from bank decline; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0042",
@@ -749,12 +749,12 @@
       "failureReason": "Bank decline",
       "recoveryScore": 41,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Bank decision",
+      "decisionReason": "Low recovery potential from bank decline; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0043",
@@ -767,12 +767,12 @@
       "failureReason": "Bank decline",
       "recoveryScore": 38,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Bank decision",
+      "decisionReason": "Low recovery potential from bank decline; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0044",
@@ -785,12 +785,12 @@
       "failureReason": "Bank decline",
       "recoveryScore": 51,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Bank decision",
+      "decisionReason": "Low recovery potential from bank decline; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0045",
@@ -803,12 +803,12 @@
       "failureReason": "Bank decline",
       "recoveryScore": 48,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Bank decision",
+      "decisionReason": "Low recovery potential from bank decline; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0046",
@@ -821,12 +821,12 @@
       "failureReason": "Daily limit exceeded",
       "recoveryScore": 45,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Cooldown required",
+      "decisionReason": "Low recovery potential from daily limit exceeded; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0047",
@@ -839,12 +839,12 @@
       "failureReason": "Daily limit exceeded",
       "recoveryScore": 42,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Cooldown required",
+      "decisionReason": "Low recovery potential from daily limit exceeded; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0048",
@@ -857,12 +857,12 @@
       "failureReason": "Daily limit exceeded",
       "recoveryScore": 39,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Cooldown required",
+      "decisionReason": "Low recovery potential from daily limit exceeded; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0049",
@@ -875,12 +875,12 @@
       "failureReason": "Daily limit exceeded",
       "recoveryScore": 52,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Cooldown required",
+      "decisionReason": "Low recovery potential from daily limit exceeded; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0050",
@@ -893,12 +893,12 @@
       "failureReason": "Daily limit exceeded",
       "recoveryScore": 49,
       "recoverableAmount": 0,
-      "recommendedAction": null,
-      "guardrailDecision": null,
-      "finalOutcome": null,
-      "failureClassification": null,
-      "decisionReason": null,
-      "retryCount": 0
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "failureClassification": "Cooldown required",
+      "decisionReason": "Low recovery potential from daily limit exceeded; score below minimum 60",
+      "retryCount": 1
     },
     {
       "id": "txn_0051",
@@ -1801,7 +1801,558 @@
       "retryCount": 0
     }
   ],
-  "audit": [],
+  "audit": [
+    {
+      "id": "audit_1788107363064_txn_0001",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0001",
+      "aiScore": 78,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0002",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0002",
+      "aiScore": 77,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0003",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0003",
+      "aiScore": 76,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0004",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0004",
+      "aiScore": 75,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0005",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0005",
+      "aiScore": 74,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0006",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0006",
+      "aiScore": 73,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0007",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0007",
+      "aiScore": 72,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0008",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0008",
+      "aiScore": 71,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0009",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0009",
+      "aiScore": 70,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0010",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0010",
+      "aiScore": 69,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0011",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0011",
+      "aiScore": 68,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0012",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0012",
+      "aiScore": 67,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0013",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0013",
+      "aiScore": 66,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0014",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0014",
+      "aiScore": 65,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0015",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0015",
+      "aiScore": 78,
+      "failureReason": "Insufficient funds",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from insufficient funds"
+    },
+    {
+      "id": "audit_1788107363064_txn_0016",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0016",
+      "aiScore": 77,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0017",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0017",
+      "aiScore": 76,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0018",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0018",
+      "aiScore": 75,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0019",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0019",
+      "aiScore": 74,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0020",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0020",
+      "aiScore": 73,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0021",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0021",
+      "aiScore": 72,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0022",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0022",
+      "aiScore": 71,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0023",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0023",
+      "aiScore": 70,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0024",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0024",
+      "aiScore": 69,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0025",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0025",
+      "aiScore": 68,
+      "failureReason": "Network timeout",
+      "recommendedAction": "RETRY_NOW",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from network timeout"
+    },
+    {
+      "id": "audit_1788107363064_txn_0026",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0026",
+      "aiScore": 67,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363064_txn_0027",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0027",
+      "aiScore": 66,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363064_txn_0028",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0028",
+      "aiScore": 65,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363064_txn_0029",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0029",
+      "aiScore": 78,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363064_txn_0030",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0030",
+      "aiScore": 77,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363064_txn_0031",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0031",
+      "aiScore": 76,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363065_txn_0032",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0032",
+      "aiScore": 75,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363065_txn_0033",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0033",
+      "aiScore": 74,
+      "failureReason": "Authentication failure",
+      "recommendedAction": "REQUEST_AUTHENTICATION",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "SUCCESS",
+      "reasoning": "Medium recovery potential from authentication failure"
+    },
+    {
+      "id": "audit_1788107363065_txn_0034",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0034",
+      "aiScore": 73,
+      "failureReason": "Card expired",
+      "recommendedAction": "SEND_PAYMENT_REMINDER",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "PENDING_MANUAL",
+      "reasoning": "Medium recovery potential from card expired"
+    },
+    {
+      "id": "audit_1788107363065_txn_0035",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0035",
+      "aiScore": 72,
+      "failureReason": "Card expired",
+      "recommendedAction": "SEND_PAYMENT_REMINDER",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "PENDING_MANUAL",
+      "reasoning": "Medium recovery potential from card expired"
+    },
+    {
+      "id": "audit_1788107363065_txn_0036",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0036",
+      "aiScore": 71,
+      "failureReason": "Card expired",
+      "recommendedAction": "SEND_PAYMENT_REMINDER",
+      "guardrailDecision": "AUTO_APPROVED",
+      "finalOutcome": "PENDING_MANUAL",
+      "reasoning": "Medium recovery potential from card expired"
+    },
+    {
+      "id": "audit_1788107363065_txn_0037",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0037",
+      "aiScore": 40,
+      "failureReason": "Card expired",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from card expired; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0038",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0038",
+      "aiScore": 37,
+      "failureReason": "Card expired",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from card expired; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0039",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0039",
+      "aiScore": 50,
+      "failureReason": "Bank decline",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from bank decline; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0040",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0040",
+      "aiScore": 47,
+      "failureReason": "Bank decline",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from bank decline; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0041",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0041",
+      "aiScore": 44,
+      "failureReason": "Bank decline",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from bank decline; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0042",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0042",
+      "aiScore": 41,
+      "failureReason": "Bank decline",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from bank decline; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0043",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0043",
+      "aiScore": 38,
+      "failureReason": "Bank decline",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from bank decline; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0044",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0044",
+      "aiScore": 51,
+      "failureReason": "Bank decline",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from bank decline; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0045",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0045",
+      "aiScore": 48,
+      "failureReason": "Bank decline",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from bank decline; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0046",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0046",
+      "aiScore": 45,
+      "failureReason": "Daily limit exceeded",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from daily limit exceeded; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0047",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0047",
+      "aiScore": 42,
+      "failureReason": "Daily limit exceeded",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from daily limit exceeded; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0048",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0048",
+      "aiScore": 39,
+      "failureReason": "Daily limit exceeded",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from daily limit exceeded; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0049",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0049",
+      "aiScore": 52,
+      "failureReason": "Daily limit exceeded",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from daily limit exceeded; score below minimum 60"
+    },
+    {
+      "id": "audit_1788107363065_txn_0050",
+      "timestamp": "2026-08-30T16:29:23.063Z",
+      "transactionId": "txn_0050",
+      "aiScore": 49,
+      "failureReason": "Daily limit exceeded",
+      "recommendedAction": "SKIP",
+      "guardrailDecision": "SKIPPED",
+      "finalOutcome": "SKIPPED",
+      "reasoning": "Low recovery potential from daily limit exceeded; score below minimum 60"
+    }
+  ],
   "guardrails": {
     "maximumRetryAttempts": 2,
     "highValueThreshold": 50000,
@@ -1809,6 +2360,6 @@
     "minimumRecoveryScore": 60,
     "maximumAutomaticRecoveryAmount": 50000
   },
-  "agentRun": false,
-  "completedAt": null
+  "agentRun": true,
+  "completedAt": "2026-08-30T16:29:23.063Z"
 }
