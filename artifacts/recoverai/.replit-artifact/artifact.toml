@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "RecoverAI"
+description = "A synthetic fintech command center for autonomous revenue recovery, with deterministic AI-style decisions, policy guardrails, transaction intelligence, and a complete audit trail."
+version = "1.0.0"
+id = "artifacts/recoverai"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20814
+
+[services.development]
+run = "pnpm --filter @workspace/recoverai run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/recoverai", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/recoverai/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20814"
+BASE_PATH = "/"

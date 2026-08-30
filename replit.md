@@ -1,6 +1,6 @@
-# [Project name]
+# RecoverAI
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+RecoverAI is a synthetic fintech command center that explains and applies autonomous revenue-recovery decisions to failed payments.
 
 ## Run & Operate
 
@@ -22,23 +22,33 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/recoverai/src/App.tsx` — responsive dashboard routes, charts, tables, drawers, and user interactions.
+- `artifacts/recoverai/src/index.css` — RecoverAI theme tokens, typography, motion, and layout utilities.
+- `artifacts/api-server/src/routes/recoverai.ts` — deterministic synthetic transaction generator, recovery engine, JSON persistence, and API routes.
+- `lib/api-spec/openapi.yaml` — source of truth for the dashboard API and generated client hooks.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The demo uses a local JSON store instead of payment providers or live customer data; all records are synthetic and safe to reset.
+- Recovery decisions are deterministic so a competition demo produces repeatable outcomes and can visibly show guardrail changes.
+- The shared API server owns transaction state, agent runs, guardrail policy, and audit history; the React client consumes generated hooks.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Overview KPIs and Recharts visualizations for revenue at risk, recoverable value, recovered value, outcomes, failure reasons, and action mix.
+- Recovery Agent page with run/reset controls, explainable score-to-action flow, and agent status.
+- Transactions and Audit Log pages with search, filters, sorting, pagination, CSV export, and detail drawers.
+- Guardrail Studio with persisted policy settings that influence eligibility, escalation, cooldown actions, and outcomes.
+- Settings page that clearly communicates synthetic-only mode and disabled payment execution.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+No additional preferences recorded.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The demo intentionally never calls real payment APIs.
+- The frontend artifact build needs workflow-provided `PORT` and `BASE_PATH`; use the managed web workflow for previews.
 
 ## Pointers
 

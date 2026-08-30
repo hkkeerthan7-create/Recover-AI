@@ -1,0 +1,217 @@
+Build a complete full-stack web app called RecoverAI — Autonomous Revenue Recovery.
+
+This is a synthetic fintech demo for a project competition. NEVER process real payments or use real customer/payment data.
+
+TECH:
+- React + TypeScript
+- Tailwind CSS
+- Node.js backend
+- Use a simple persistent local data store or JSON if a database is unnecessary.
+- Use Recharts for charts.
+
+DESIGN:
+Create a polished, professional fintech/AI dashboard. Responsive on desktop and mobile. Use a clean light theme with blue, teal, green and red accents, rounded cards, charts, tables, loading states and toast notifications.
+
+TOP HEADER:
+RecoverAI
+AUTONOMOUS REVENUE RECOVERY
+
+Show a badge:
+"Synthetic Demo Data — No real payments executed"
+
+NAVIGATION:
+- Overview
+- Transactions
+- Recovery Agent
+- Audit Log
+- Guardrail Studio
+- Settings
+
+OVERVIEW:
+Create four KPI cards:
+1. Revenue at Risk — ₹14.38L — 50 failed transactions
+2. Potentially Recoverable — ₹8.80L after agent runs
+3. Revenue Recovered — ₹6.85L after agent runs
+4. Recovery Rate — 47.6% after agent runs
+
+Initially show:
+Potentially Recoverable = ₹0
+Revenue Recovered = ₹0
+Recovery Rate = 0%
+
+Add a prominent "Run Recovery Agent" button and a "Reset" button.
+
+Add charts:
+- Revenue At Risk vs Recoverable vs Recovered
+- Recovery Results donut chart: Success, Failed, Pending Manual, Skipped
+- Failure Reason Distribution
+- Recovery Action Distribution
+
+RECOVERY AGENT:
+When "Run Recovery Agent" is clicked:
+- Show a processing/loading animation.
+- Analyze 50 synthetic failed transactions.
+- Calculate a deterministic recovery score from 0–100.
+- Classify failures.
+- Recommend a recovery action.
+- Apply guardrails.
+- Record the decision in the audit log.
+- Update dashboard metrics.
+
+After completion, target these demo results:
+- 50 failed transactions analyzed
+- ₹8.80L potentially recoverable
+- ₹6.85L recovered
+- 33 successful recoveries
+- 3 escalations
+- 47.6% recovery rate
+
+Display:
+"Recovery Agent completed"
+"AI scoring + policy guardrails"
+"No real payments were executed."
+
+RECOVERY LOGIC:
+Use deterministic rule-based AI-style scoring.
+
+Failure reasons:
+- Insufficient funds
+- Network timeout
+- Authentication failure
+- Card expired
+- Bank decline
+- Daily limit exceeded
+
+Typical logic:
+- Temporary failures such as network timeout and insufficient funds = higher recovery potential.
+- Authentication failure = medium potential.
+- Expired cards = low potential.
+- Daily limit = retry after cooldown.
+- Bank decline = medium/low potential.
+
+Score:
+80–100 = High
+60–79 = Medium
+0–59 = Low
+
+Actions:
+- RETRY_NOW
+- RETRY_AFTER_COOLDOWN
+- REQUEST_AUTHENTICATION
+- SEND_PAYMENT_REMINDER
+- ESCALATE_MANUAL_REVIEW
+- SKIP
+
+For each decision provide a human-readable reason.
+
+TRANSACTIONS:
+Generate exactly 100 realistic synthetic transactions.
+
+Exactly 50 should initially be FAILED.
+
+Fields:
+- Transaction ID
+- Customer ID
+- Amount
+- Currency
+- Timestamp
+- Payment Method
+- Status
+- Failure Reason
+- Recovery Score
+- Recoverable Amount
+- Recommended Action
+- Guardrail Decision
+- Final Outcome
+
+Use Indian Rupee amounts.
+
+Add:
+- Search
+- Status filter
+- Failure reason filter
+- Outcome filter
+- Sorting
+- Pagination
+- Click transaction to view details
+
+TRANSACTION DETAIL:
+Show all transaction information plus:
+- AI recovery score
+- Failure classification
+- Recommended action
+- Guardrail decision
+- Human-readable decision reasoning
+- Final outcome
+
+GUARDRAIL STUDIO:
+Create configurable controls:
+- Maximum retry attempts: default 2
+- High-value threshold: ₹50,000
+- Cooldown: 30 minutes
+- Minimum recovery score: 60
+- Maximum automatic recovery amount: ₹50,000
+
+Add "Save Guardrails".
+
+The recovery engine MUST actually use these settings.
+
+Example policy:
+IF recovery score >= minimum score
+AND retry count < maximum retries
+AND amount <= maximum automatic recovery amount
+THEN allow automatic recovery.
+Otherwise escalate to manual review.
+
+AUDIT LOG:
+Record every agent decision.
+
+Columns:
+- Timestamp
+- Transaction ID
+- AI Score
+- Failure Reason
+- Recommended Action
+- Guardrail Decision
+- Final Outcome
+
+Add search, filters and transaction detail.
+
+SETTINGS:
+Show:
+Application: RecoverAI
+Environment: Synthetic Demo
+Payment Execution: DISABLED
+AI Decision Engine: ENABLED
+Audit Logging: ENABLED
+
+Display:
+"No real payments are processed by this demonstration."
+
+DEMO FLOW:
+1. Open Overview.
+2. Show ₹14.38L at risk.
+3. Click Run Recovery Agent.
+4. Show processing.
+5. Display ₹8.80L recoverable, ₹6.85L recovered, 33 successful recoveries, 3 escalations and 47.6% recovery rate.
+6. Open Transactions and inspect a transaction.
+7. Open Guardrail Studio and change a setting.
+8. Run the agent again and show guardrails affecting decisions.
+9. Open Audit Log and show the decision trail.
+
+QUALITY:
+- No placeholder text.
+- No broken buttons.
+- All navigation must work.
+- Run Recovery Agent must work.
+- Reset must work.
+- Search/filter must work.
+- Guardrails must affect decisions.
+- Audit log must populate.
+- Charts must work.
+- Mobile responsive.
+- No real payment APIs.
+- Use only synthetic data.
+- Fix build errors and TypeScript errors before finishing.
+
+At the end, briefly explain the implemented frontend, backend, data storage, recovery logic and guardrail system.

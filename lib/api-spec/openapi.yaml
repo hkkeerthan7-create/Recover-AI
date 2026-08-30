@@ -10,6 +10,16 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: dashboard
+    description: Recovery dashboard operations
+  - name: transactions
+    description: Synthetic transaction operations
+  - name: recovery-agent
+    description: Autonomous recovery agent operations
+  - name: audit
+    description: Recovery decision audit operations
+  - name: guardrails
+    description: Recovery policy operations
 paths:
   /healthz:
     get:
@@ -24,7 +34,181 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /overview:
+    get:
+      operationId: getOverview
+      tags: [dashboard]
+      summary: Get recovery overview
+      responses:
+        "200":
+          description: Recovery overview
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Overview"
+  /transactions:
+    get:
+      operationId: listTransactions
+      tags: [transactions]
+      summary: List synthetic transactions
+      parameters:
+        - $ref: "#/components/parameters/SearchParam"
+        - $ref: "#/components/parameters/StatusParam"
+        - $ref: "#/components/parameters/FailureReasonParam"
+        - $ref: "#/components/parameters/OutcomeParam"
+        - $ref: "#/components/parameters/PageParam"
+        - $ref: "#/components/parameters/PageSizeParam"
+        - $ref: "#/components/parameters/SortParam"
+        - $ref: "#/components/parameters/SortDirectionParam"
+      responses:
+        "200":
+          description: Paginated synthetic transactions
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TransactionList"
+  /transactions/{transactionId}:
+    get:
+      operationId: getTransaction
+      tags: [transactions]
+      summary: Get one synthetic transaction
+      parameters:
+        - $ref: "#/components/parameters/TransactionIdParam"
+      responses:
+        "200":
+          description: Synthetic transaction
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Transaction"
+        "404":
+          description: Transaction not found
+  /agent/run:
+    post:
+      operationId: runRecoveryAgent
+      tags: [recovery-agent]
+      summary: Analyze failed transactions and apply guardrails
+      responses:
+        "200":
+          description: Agent run result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AgentRunResult"
+  /agent/reset:
+    post:
+      operationId: resetRecoveryAgent
+      tags: [recovery-agent]
+      summary: Reset the demo to its initial state
+      responses:
+        "200":
+          description: Reset overview
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Overview"
+  /audit-log:
+    get:
+      operationId: listAuditLog
+      tags: [audit]
+      summary: List recovery decisions
+      parameters:
+        - $ref: "#/components/parameters/SearchParam"
+        - $ref: "#/components/parameters/OutcomeParam"
+        - $ref: "#/components/parameters/PageParam"
+        - $ref: "#/components/parameters/PageSizeParam"
+      responses:
+        "200":
+          description: Paginated audit log
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AuditList"
+  /guardrails:
+    get:
+      operationId: getGuardrails
+      tags: [guardrails]
+      summary: Get recovery guardrails
+      responses:
+        "200":
+          description: Guardrail configuration
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Guardrails"
+    put:
+      operationId: updateGuardrails
+      tags: [guardrails]
+      summary: Update recovery guardrails
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GuardrailsInput"
+      responses:
+        "200":
+          description: Updated guardrails
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Guardrails"
 components:
+  parameters:
+    TransactionIdParam:
+      name: transactionId
+      in: path
+      required: true
+      schema:
+        type: string
+    SearchParam:
+      name: search
+      in: query
+      schema:
+        type: string
+    StatusParam:
+      name: status
+      in: query
+      schema:
+        type: string
+    FailureReasonParam:
+      name: failureReason
+      in: query
+      schema:
+        type: string
+    OutcomeParam:
+      name: outcome
+      in: query
+      schema:
+        type: string
+    PageParam:
+      name: page
+      in: query
+      schema:
+        type: number
+        minimum: 1
+        default: 1
+    PageSizeParam:
+      name: pageSize
+      in: query
+      schema:
+        type: number
+        minimum: 1
+        maximum: 100
+        default: 10
+    SortParam:
+      name: sort
+      in: query
+      schema:
+        type: string
+        default: timestamp
+    SortDirectionParam:
+      name: sortDirection
+      in: query
+      schema:
+        type: string
+        enum: [asc, desc]
+        default: desc
   schemas:
     HealthStatus:
       type: object
@@ -33,4 +217,189 @@ components:
           type: string
       required:
         - status
+    Overview:
+      type: object
+      required:
+        - revenueAtRisk
+        - failedTransactions
+        - potentiallyRecoverable
+        - revenueRecovered
+        - recoveryRate
+        - successfulRecoveries
+        - escalations
+        - pendingManual
+        - skipped
+        - agentRun
+        - charts
+      properties:
+        revenueAtRisk: { type: number }
+        failedTransactions: { type: number }
+        potentiallyRecoverable: { type: number }
+        revenueRecovered: { type: number }
+        recoveryRate: { type: number }
+        successfulRecoveries: { type: number }
+        escalations: { type: number }
+        pendingManual: { type: number }
+        skipped: { type: number }
+        agentRun: { type: boolean }
+        charts:
+          $ref: "#/components/schemas/ChartData"
+    ChartData:
+      type: object
+      required:
+        - revenue
+        - outcomes
+        - failureReasons
+        - actions
+      properties:
+        revenue:
+          type: array
+          items:
+            $ref: "#/components/schemas/RevenuePoint"
+        outcomes:
+          type: array
+          items:
+            $ref: "#/components/schemas/NamedCount"
+        failureReasons:
+          type: array
+          items:
+            $ref: "#/components/schemas/NamedCount"
+        actions:
+          type: array
+          items:
+            $ref: "#/components/schemas/NamedCount"
+    RevenuePoint:
+      type: object
+      required: [label, atRisk, recoverable, recovered]
+      properties:
+        label: { type: string }
+        atRisk: { type: number }
+        recoverable: { type: number }
+        recovered: { type: number }
+    NamedCount:
+      type: object
+      required: [name, count, value]
+      properties:
+        name: { type: string }
+        count: { type: number }
+        value: { type: number }
+    Transaction:
+      type: object
+      required:
+        - id
+        - customerId
+        - amount
+        - currency
+        - timestamp
+        - paymentMethod
+        - status
+        - failureReason
+        - recoveryScore
+        - recoverableAmount
+        - recommendedAction
+        - guardrailDecision
+        - finalOutcome
+        - failureClassification
+        - decisionReason
+        - retryCount
+      properties:
+        id: { type: string }
+        customerId: { type: string }
+        amount: { type: number }
+        currency: { type: string }
+        timestamp: { type: string, format: date-time }
+        paymentMethod: { type: string }
+        status: { type: string }
+        failureReason: { type: ["string", "null"] }
+        recoveryScore: { type: ["number", "null"] }
+        recoverableAmount: { type: number }
+        recommendedAction: { type: ["string", "null"] }
+        guardrailDecision: { type: ["string", "null"] }
+        finalOutcome: { type: ["string", "null"] }
+        failureClassification: { type: ["string", "null"] }
+        decisionReason: { type: ["string", "null"] }
+        retryCount: { type: number }
+    TransactionList:
+      type: object
+      required: [items, total, page, pageSize, totalPages]
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Transaction"
+        total: { type: number }
+        page: { type: number }
+        pageSize: { type: number }
+        totalPages: { type: number }
+    AgentRunResult:
+      type: object
+      required: [overview, message, analyzed, completedAt]
+      properties:
+        overview:
+          $ref: "#/components/schemas/Overview"
+        message: { type: string }
+        analyzed: { type: number }
+        completedAt: { type: string, format: date-time }
+    AuditEntry:
+      type: object
+      required:
+        - id
+        - timestamp
+        - transactionId
+        - aiScore
+        - failureReason
+        - recommendedAction
+        - guardrailDecision
+        - finalOutcome
+        - reasoning
+      properties:
+        id: { type: string }
+        timestamp: { type: string, format: date-time }
+        transactionId: { type: string }
+        aiScore: { type: number }
+        failureReason: { type: string }
+        recommendedAction: { type: string }
+        guardrailDecision: { type: string }
+        finalOutcome: { type: string }
+        reasoning: { type: string }
+    AuditList:
+      type: object
+      required: [items, total, page, pageSize, totalPages]
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/AuditEntry"
+        total: { type: number }
+        page: { type: number }
+        pageSize: { type: number }
+        totalPages: { type: number }
+    Guardrails:
+      type: object
+      required:
+        - maximumRetryAttempts
+        - highValueThreshold
+        - cooldownMinutes
+        - minimumRecoveryScore
+        - maximumAutomaticRecoveryAmount
+      properties:
+        maximumRetryAttempts: { type: number, minimum: 0, maximum: 10 }
+        highValueThreshold: { type: number, minimum: 0 }
+        cooldownMinutes: { type: number, minimum: 1, maximum: 1440 }
+        minimumRecoveryScore: { type: number, minimum: 0, maximum: 100 }
+        maximumAutomaticRecoveryAmount: { type: number, minimum: 0 }
+    GuardrailsInput:
+      type: object
+      required:
+        - maximumRetryAttempts
+        - highValueThreshold
+        - cooldownMinutes
+        - minimumRecoveryScore
+        - maximumAutomaticRecoveryAmount
+      properties:
+        maximumRetryAttempts: { type: number, minimum: 0, maximum: 10 }
+        highValueThreshold: { type: number, minimum: 0 }
+        cooldownMinutes: { type: number, minimum: 1, maximum: 1440 }
+        minimumRecoveryScore: { type: number, minimum: 0, maximum: 100 }
+        maximumAutomaticRecoveryAmount: { type: number, minimum: 0 }
 
